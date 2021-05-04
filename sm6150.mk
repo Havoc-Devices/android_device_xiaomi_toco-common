@@ -260,7 +260,10 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.xiaomi-libperfmgr
+    android.hardware.power-service.xiaomi-libperfmgr \
+    vendor.qti.hardware.perf@2.0 \
+    vendor.qti.hardware.perf@2.1 \
+    vendor.qti.hardware.perf@2.2
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
