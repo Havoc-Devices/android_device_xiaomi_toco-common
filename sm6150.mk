@@ -249,10 +249,7 @@ PRODUCT_ENFORCE_RRO_TARGETS += *
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.xiaomi-libperfmgr \
-    vendor.qti.hardware.perf@2.0 \
-    vendor.qti.hardware.perf@2.1 \
-    vendor.qti.hardware.perf@2.2
+    android.hardware.power-service.xiaomi-libperfmgr
 
 # QTI
 PRODUCT_PACKAGES += \
